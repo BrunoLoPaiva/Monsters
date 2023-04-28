@@ -16,6 +16,7 @@ new Vue({
             this.running = true;
             this.playerLife = 100;
             this.monsterLife = 100;
+            this.logs = [];
         },
         attack(especial) {
             this.hurt('monsterLife', 5, 10, especial, 'Monstro', 'Jogador', 'monster');
